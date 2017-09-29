@@ -1,4 +1,4 @@
-#include <sstream>
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,19 +6,18 @@ using namespace std;
 
 int main()
 {
-istringstream iss;
-istringstream piss;
+
 vector <string> array;
 
-int mag ; //Store the number of words in newspaper;
-int ran ; //Store the number of words required to create a Ransom Note
+int mag = 0; //Store the number of words in newspaper;
+int ran = 0; //Store the number of words required to create a Ransom Note
 
 int counter = 0; //Increases when a entered word matches similar word in Newspaper
 
 cin >> mag;
 cin >> ran;
-string word;
-string word_2;
+string word = "";
+string word_2 = "";
 
 
 //Takes Input of Present Words in Newspaer and stores them into an vector array
@@ -44,10 +43,6 @@ if(word_2 == array[k]){
 }
 }
 }
-
-
-
-
      
      if(counter == ran){
      	cout << "Yes" <<endl;
