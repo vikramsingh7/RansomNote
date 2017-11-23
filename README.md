@@ -12,7 +12,7 @@ String two = "Hi there how"
 Output "Yes"
 ```
 - It will print No if even one word is missing in the first string
-### Example
+### Example:
 ```
 String one = "Hi there how are you"
 String two = "Hi there me"
